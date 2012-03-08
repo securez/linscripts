@@ -1,0 +1,10 @@
+# Configuration for nodemanager
+#
+# Middleware HOME
+MW_HOME=/opt/Oracle/Middleware
+# Java HOME
+JAVA_HOME=/opt/java/jdk1.6.0_31
+# Daemon user
+NM_USER=weblogic
+# File to redirect stdout and stderr
+NM_LOG_FILE=/dev/null
