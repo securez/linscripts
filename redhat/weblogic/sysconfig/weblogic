@@ -1,6 +1,8 @@
 # /etc/sysconfig/weblogic
 #
 # The account which you installed the WebLogic Server 
-wls_user=oracle
+WLS_USER=oracle
 # Path to the WebLogic domain
-wls_domain_home=/opt/ora11g/Middleware/user_projects/domains/base_domain
+WLS_DOMAIN_HOME=/opt/ora11g/Middleware/user_projects/domains/base_domain
+# Port of WeblogicServer
+WLS_SERVER_PORT=7001
